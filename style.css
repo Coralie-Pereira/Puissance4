@@ -1,77 +1,47 @@
-body{
-    background-color: pink;
+/* grande boite qui contient le tableau */
+.grande_boite_stats{
+    border: green solid 5px;
+    height: 600px;
+    display: flex;   
+}
+
+/* premiere boite sur la gauche qui contient limage  */
+.grande_boite_image1{
+    border: solid 2px;
+    width: 40%;
+}
+
+/* tableau taille */
+table{
+    width: 60%;
 }
 
 
-.boiteparent{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+/* case 1 coter droite contient parti jouer*/
+.boite1{
+    background-color: blue;
+    width: 40%;
+    height: 150px;
+    text-align: center;
 }
-
-.boite1{   
-    background-color: rgb(123, 202, 67);
-    width: 30%;
-    height: 250px;
-
-   
-}
-
+/* case 2 coter droite contient joueurs conecter */
 .boite2{
-   background-color: rgb(34, 83, 157);
-   width: 30%;
-    height: 250px;
-}
-.boite3{
-    background-color: purple;
-    width: 30%;
-    height: 250px;
-}
-
-
-.boiteparent2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-
-}
-.boite4{
-    background-color: brown;
-    width: 30%;
-    height: 250px;
-}
-.boite5{
-    background-color: rgb(75, 28, 28);
-    width: 100%;
-    height: 250px;
-    color: white;
-}
-/* .boite6{
-    background-color: orange;
-    width: 30%;
-    height: 250px;
-}
-
-.boite7{
     background-color: green;
-    width: 30%;
-    height: 250px;
+    width: 40%;
+    height: 150px;
+    text-align: center;
 }
-
-.boite8{
-    background-color: brown;
-    width: 30%;
-    height: 250px;
+/* case 3 coter droite contient record */
+.boite3{
+    background-color: pink;
+    width: 40%;
+    height: 150px;
+    text-align: center;
 }
-
-.boiteparents3{
-    display: flex;
-    flex-direction: row;
-
+/* case 4 coter droit contient joueur inscrit */
+.boite4{
+    background-color: orange;
+    width: 40%;
+    height: 150px;
+    text-align: center;
 }
-.boite9{
-    background-color: white;
-    width: 25%;
-    height: 250px;
-} */
